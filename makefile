@@ -4,12 +4,12 @@ README.md:
 	touch README.md
 
 Title:
-	echo "# Project Title" > README.md
-	echo "## Unix Workbench Assignment: Bash, Make, Git and GitHub" >> README.md
+	echo "Project Title" > README.md
+	echo "# Unix Workbench Assignment: Bash, Make, Git and GitHub" >> README.md
 
 Date_and_time:
-	echo "## Date and time" >> README.md
-	echo "The command was run at:" >> README.md
+	echo "## Created Date and time" >> README.md
+	echo "This file was created at:" >> README.md
 	date >> README.md
 
 Count_lines: guessinggame.sh
