@@ -8,9 +8,9 @@ Title:
 	echo "# Unix Workbench Assignment: Bash, Make, Git and GitHub" >> README.md
 
 Date_and_time:
-	echo "## Created Date and time" >> README.md
+	echo "## Created date and time" >> README.md
 	echo "This file was created at:" >> README.md
-	date >> README.md
+	date +'%Y-%m-%d %H:%M:%S' >> README.md
 
 Count_lines: guessinggame.sh
 	echo "## Script Info" >> README.md
